@@ -91,7 +91,8 @@ h3
     text-transform: uppercase;
     color: var(--main-hefding-color);
 }
-section {
+section 
+{
     padding: 20px; 
     margin-bottom: 20px; 
 }
