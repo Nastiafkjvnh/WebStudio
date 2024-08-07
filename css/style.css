@@ -17,41 +17,43 @@ body
 h1, h2, h3, h4, p 
 {
     margin: 0;
-    }
-    
-    ul 
-    {
+} 
+ul  
+{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    }
-    
-    address 
-    {
-    font-style: normal;
+    list-style: none;
 }
-h1
+.adress
+{
+    font-style: normal;
+    color:#FFFFFF;
+    width: 231px;
+    height: 81px;
+    top: 2205px;
+    left: 215px;
+    gap: 0px;
+    opacity: 0px;
+}
+h1 
 {
     font-weight: 900;
 }
-nav span
+nav span 
 {
     color: #2196F3;
 }
-header WebStudio
+header WebStudio 
 {
     color: #000000;
     text-decoration: none;
     font-size: 26px;
 }
-.link
+.link 
 {
     color: var(--main-hefding-color);
     text-decoration: none;
-}
-ul
-{
-    list-style: none;
 }
 .container_header 
 {
@@ -65,18 +67,19 @@ ul
     display: flex;
     justify-content: space-between;
 }
-.container_section1
+.container_section1 
 {
     width: 1600px;
     height: 600px;
     top: 80px;
     background: #2F303A;
     margin: 0 auto;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
 }
-.container_section2
+.container_section2 
 {
     width: 1170px;
     height: 98px;
@@ -85,9 +88,9 @@ ul
     gap: 0px;
     opacity: 0px;
     margin: 0 auto;
-    display: flex
+    display: flex;
 }
-.container_komanda
+.container_komanda 
 {
     width: 1600px;
     height: 648px;
@@ -95,10 +98,13 @@ ul
     gap: 0px;
     opacity: 0px;
     background: #F5F4FA;
-    margin: 0 auto;
-    display: flex
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.container_footer
+.container_footer 
 {
     width: 1600px;
     height: 252px;
@@ -108,16 +114,16 @@ ul
     background: #2F303A;
     margin: 0 auto;
 }
-.header
+.header 
 {
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.section-title
+.section-title 
 {
     margin-bottom: 30px;
 }
-.button
+.button 
 {
     padding: 10px 32px;
     border-radius: 4px;
@@ -131,7 +137,7 @@ ul
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #2196F3;
 }
-h3
+h3 
 {
     font-weight: 700;
     font-size: 14px;
@@ -144,7 +150,7 @@ section
     padding: 20px; 
     margin-bottom: 20px; 
 }
-h2
+h2 
 {
     font-family: Roboto;
     font-size: 36px;
@@ -153,8 +159,42 @@ h2
     letter-spacing: 0.03em;
     text-align: center;     
 }
-a
+a 
 {
     text-decoration: none;
     color: black;
+}
+.photo
+{
+    flex-wrap: wrap;
+    width: 1170px;
+    height: 386px;
+    top: 966px;
+    left: 215px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 15px;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.photo1
+{
+    border: 2px;
+}
+nav ul 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li 
+{
+    margin: 0 1rem;
+}
+.komanda1
+{
+    border: 2px;
 }
